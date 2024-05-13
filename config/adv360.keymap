@@ -36,12 +36,12 @@
     combos {
         compatible = "zmk,combos";
 
-        enter {
+        enter_right {
             bindings = <&kp KP_ENTER>;
             key-positions = <42 43>;
         };
 
-        enter {
+        ente_left {
             bindings = <&kp KP_ENTER>;
             key-positions = <31 30>;
         };
