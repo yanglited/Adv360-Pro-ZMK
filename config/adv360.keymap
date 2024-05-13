@@ -33,6 +33,40 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        enter {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <42 43>;
+        };
+
+        enter {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <31 30>;
+        };
+
+        eq_sign {
+            bindings = <&kp EQUAL>;
+            key-positions = <40 33>;
+        };
+
+        plus {
+            bindings = <&kp KP_PLUS>;
+            key-positions = <41 32>;
+        };
+
+        mius {
+            bindings = <&kp KP_MINUS>;
+            key-positions = <31 42>;
+        };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <43 30>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
