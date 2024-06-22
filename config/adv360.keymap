@@ -80,7 +80,7 @@
 &trans     &trans           &trans        &trans        &trans          &trans            &trans                                                     &mo 3      &trans             &trans           &trans        &trans                &trans                 &kp BACKSPACE
 &trans     &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR      &kp PERCENT       &trans                                                     &trans     &kp CARET          &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSLH
 &trans     &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5      &trans  &kp LCTRL  &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &trans     &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &kp SQT
-&kp LSHFT  &trans           &kp GRAVE     &kp TILDE     &kp LEFT_BRACE  &kp LEFT_BRACKET                     &kp HOME      &kp PG_UP                            &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp COMMA     &kp PERIOD            &trans                 &kp RSHFT
+&kp LSHFT  &kp EQUAL        &kp GRAVE     &kp TILDE     &kp LEFT_BRACE  &kp LEFT_BRACKET                     &kp HOME      &kp PG_UP                            &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp COMMA     &kp PERIOD            &kp MINUS              &kp RSHFT
 &mo 2      &kp GRAVE        &kp CAPS      &trans        &trans                            &trans  &trans     &kp END       &kp PG_DN      &trans     &kp ENTER                     &trans           &trans        &trans                &trans                 &mo 2
             >;
         };
