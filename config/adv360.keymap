@@ -55,6 +55,11 @@
             bindings = <&kp UNDERSCORE>;
             key-positions = <43 30>;
         };
+
+        escape_jk {
+            bindings = <&kp ESCAPE>;
+            key-positions = <41 42>;
+        };
     };
 
     keymap {
