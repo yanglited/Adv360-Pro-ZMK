@@ -67,31 +67,31 @@
 
         default_layer {
             bindings = <
-&kp EQUAL   &kp N1     &kp N2    &kp N3     &kp N4    &kp N5  &tog 1                                                                &mo 3              &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp ESCAPE  &kp Q      &kp W     &kp E      &kp R     &kp T   &kp DELETE                                                            &kp C_VOLUME_UP    &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp TAB     &kp A      &kp S     &kp D      &kp F     &kp G   &kp BACKSPACE  &kp LCTRL      &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &kp C_VOLUME_DOWN  &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z      &kp X     &kp C      &kp V     &kp B                                 &kp HOME      &kp PG_UP                                    &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-&kp LCTRL   &kp GRAVE  &kp CAPS  &kp LCTRL  &kp LALT          &mo 1          &kp LEFT_META  &kp END       &kp PG_DN      &mo 2      &kp SPACE                  &kp LALT  &kp RCTRL  &kp LBKT  &kp RBKT  &kp RCTRL
+&kp EQUAL   &kp N1     &kp N2    &kp N3     &kp N4    &kp N5  &kp C_MUTE                                                                &mo 3              &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp ESCAPE  &kp Q      &kp W     &kp E      &kp R     &kp T   &kp DELETE                                                                &kp C_VOLUME_UP    &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
+&kp TAB     &kp A      &kp S     &kp D      &kp F     &kp G   &kp BACKSPACE  &kp LALT       &kp LCTRL      &kp RIGHT_CONTROL  &kp RALT  &kp C_VOLUME_DOWN  &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z      &kp X     &kp C      &kp V     &kp B                                 &kp HOME       &kp PG_UP                                       &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+&kp LCTRL   &kp GRAVE  &kp CAPS  &kp LCTRL  &kp LALT          &mo 1          &kp LEFT_META  &kp END        &kp PG_DN          &mo 2     &kp SPACE                  &kp LALT  &kp RCTRL  &kp LBKT  &kp RBKT  &kp RCTRL
             >;
         };
 
         layer_lower {
             bindings = <
-&trans  &trans           &trans        &trans        &trans          &trans            &trans                                                     &mo 3      &trans             &trans           &trans        &trans                &trans                 &kp BACKSPACE
-&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR      &kp PERCENT       &trans                                                     &trans     &kp CARET          &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5      &trans  &kp LCTRL  &kp LALT      &kp RIGHT_ALT  &kp RCTRL  &trans     &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
-&trans  &kp EQUAL        &kp GRAVE     &kp TILDE     &kp LEFT_BRACE  &kp LEFT_BRACKET                     &kp HOME      &kp PG_UP                            &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp COMMA     &kp PERIOD            &kp MINUS              &trans
-&trans  &kp GRAVE        &kp CAPS      &trans        &trans                            &trans  &trans     &kp END       &kp PG_DN      &trans     &kp ENTER                     &trans           &trans        &trans                &trans                 &trans
+&trans  &trans           &trans        &trans        &trans          &trans            &trans                                      &mo 3      &trans             &trans           &trans        &trans                &trans                 &kp BACKSPACE
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND     &kp DOLLAR      &kp PERCENT       &trans                                      &trans     &kp CARET          &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5      &trans  &trans  &trans      &trans  &trans  &trans     &kp NUMBER_6       &kp NUMBER_7     &kp NUMBER_8  &kp NUMBER_9          &kp NUMBER_0           &trans
+&trans  &kp EQUAL        &kp GRAVE     &kp TILDE     &kp LEFT_BRACE  &kp LEFT_BRACKET                  &trans      &trans                     &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp COMMA     &kp PERIOD            &kp MINUS              &trans
+&trans  &kp GRAVE        &kp CAPS      &trans        &trans                            &trans  &trans  &trans      &trans  &trans  &kp ENTER                     &trans           &trans        &trans                &trans                 &trans
             >;
         };
 
         layer_above {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &tog 1                                      &mo 3   &kp F6    &kp F7    &kp F8        &kp F9     &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans    &trans    &trans        &trans     &kp F11  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans    &trans    &trans        &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans   &trans
+&trans  &trans  &trans    &trans     &trans         &trans   &tog 1                                      &mo 3   &trans    &trans    &trans        &trans     &trans   &trans
+&trans  &trans  &trans    &trans     &trans         &trans   &none                                       &none   &trans    &trans    &trans        &trans     &kp F12  &trans
+&trans  &trans  &kp HOME  &kp PG_UP  &kp PAGE_DOWN  &kp END  &none   &trans  &trans      &trans  &trans  &none   &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &kp F11  &trans
+&trans  &kp F1  &kp F2    &kp F3     &kp F4         &kp F5                   &trans      &trans                  &kp F6    &kp F7    &kp F8        &kp F9     &kp F10  &trans
+&trans  &trans  &trans    &trans     &trans                  &trans  &trans  &trans      &trans  &trans  &trans            &trans    &trans        &trans     &trans   &trans
             >;
         };
 
